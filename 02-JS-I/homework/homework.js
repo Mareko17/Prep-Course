@@ -40,13 +40,12 @@ suma = x + y
 function resta(x, y) {
 resta = x - y
 }
- return (7, 2)
+(7, 2)
 
 function multiplica(x, y) {
-  // Multiplica "x" por "y" y devuelve el valor
-  // Tu código: multiplica(x * y)
+multiplica = x - y
 }
-multiplica(3, 5)
+(3, 5)
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
