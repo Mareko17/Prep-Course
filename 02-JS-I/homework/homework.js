@@ -35,34 +35,34 @@ function devolverString(str) {
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código:
-  
+  // Tu código: suma(a + b)  
 }
+suma(5, 3)
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
-  // Tu código:
-  
+  // Tu código: resta(x - y)
 }
+resta(7, 2)
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
-  // Tu código:
-  
+  // Tu código: multiplica(x * y)
 }
+multiplica(3, 5)
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
-  // Tu código:
-  
+  // Tu código: divide(x / y)
 }
+divide(4, 2)
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
-  // Tu código:
-  
+  // Tu código: sonIguales(x == y)
 }
+sonIguales(5, 5)
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
