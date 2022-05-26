@@ -48,27 +48,34 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
- switch (color) {
-   case color: (blue, red, green, orange)
-   console.log('this is' + color)
-     break;
-   default:
-     console.log('Color not found')
-     break;
- }
+  switch(color) {
+    case 'blue':
+      return 'This is blue';
+    case 'red':
+      return 'This is red';
+    case 'green':
+      return'This is green'
+    case 'orange':
+      return 'This is orange';
+    default:
+      return 'Color not found'
+  }
 }
 
 function esDiezOCinco(numero) {
       // Devuelve "true" si "numero" es 10 o 5
       // De lo contrario, devuelve "false"
       // Tu código:
+      if(numero === 10 || numero === 5) return true
+      return false
 }
 
 function estaEnRango(numero) {
       // Devuelve "true" si "numero" es menor que 50 y mayor que 20
       // De lo contrario, devuelve "false"
       // Tu código:
-
+      if(numero < 50 && numero > 20) return true
+      return false
 }  
 
 function esEntero(numero) {
@@ -79,6 +86,11 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
+  if(numero - Math.floor(numero) === 0) {
+    return true;
+  } else {
+    return false
+  }
 }
 
 function fizzBuzz(numero) {
@@ -86,6 +98,7 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
+  if(numero )
 }
 
 function operadoresLogicos(num1, num2, num3) {
